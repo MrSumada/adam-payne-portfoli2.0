@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 
 
@@ -31,7 +32,9 @@ function App() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    // return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

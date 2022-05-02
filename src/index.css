@@ -37,7 +37,7 @@ h3 {
   margin: 0 0 5px 0;
 }
 
-h2, h3, a {
+h2, h3, h4, a {
   color: var(--font-color-1);
   text-shadow: 2px 2px 0px var(--bg-2-color);
 }
@@ -84,6 +84,48 @@ nav {
   justify-content: space-around;
   width: auto;
   flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5vh 0;
+}
+
+input {
+  width: 30vw;
+  height: 3vh;
+  min-height: 25px;
+  border-radius: 5px;
+  border: 1px solid var(--bg-1-color);
+  padding: 0 10px;
+}
+
+textarea {
+  width: 40vw;
+  height: 30vh;
+  margin-bottom: 2vh;
+  border-radius: 5px;
+  border: 1px solid var(--bg-1-color);
+  padding: 10px;
+}
+
+textarea:focus-visible, input:focus-visible {
+  outline: var(--bg-1-color) auto 1px;
+}
+
+button {
+  color: var(--font-color-1);
+  border: 1px solid var(--bg-1-color);
+  background-color: var(--bg-2-color);
+  height: 30px;
+  width: 10vw;
+  min-width: 70px;
+  cursor: pointer;
 }
 
 .hero {
@@ -163,6 +205,14 @@ footer > a {
 
   h2 {
     margin: 10px 0 0 0;
+  }
+
+  input {
+    width: 50vw;
+  }
+
+  textarea {
+    width: 70vw;
   }
 
   .hero {
