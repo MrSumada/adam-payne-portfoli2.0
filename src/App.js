@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav'
 import Footer from './components/Footer';
 import About from './components/About';
+import Resume from './components/Resume';
 
 
 
@@ -27,9 +28,9 @@ function App() {
     // if (currentPage === 'Projects') {
     //   return <Projects />;
     // }
-    // if (currentPage === 'Resume') {
-    //   return <Resume />;
-    // }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
     // return <Contact />;
   };
 
