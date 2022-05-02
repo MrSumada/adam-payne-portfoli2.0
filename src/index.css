@@ -41,9 +41,11 @@ h2, h3, a {
   text-shadow: 2px 2px 0px var(--bg-2-color);
 }
 
-a {
+li, a {
+  list-style-type: none;
   text-decoration: none;
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .container {
