@@ -146,6 +146,12 @@ button {
   gap: 30px;
 }
 
+.project-container {
+  width: 70vw;
+  height: 30vh;
+  /* background-color: black; */
+}
+
 .resume {
   height: 100%;
   padding: 50px 20vw;

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 
 
@@ -20,15 +21,15 @@ function App() {
     { name: 'Contact', description: 'Reach out to Adam' },
   ]);
 
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Projects');
 
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
     }
-    // if (currentPage === 'Projects') {
-    //   return <Projects />;
-    // }
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    }
     if (currentPage === 'Resume') {
       return <Resume />;
     }
