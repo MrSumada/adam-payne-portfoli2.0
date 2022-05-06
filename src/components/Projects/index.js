@@ -44,26 +44,25 @@ function Projects() {
     return (
         <section className="projects">
             {projectsList.map((site, i) => (
-                
-                <div 
-                    className="project-container"
-                    style={{ backgroundImage: 
-                    `linear-gradient(to bottom, rgba(39, 218, 176, 0.9) 0%,rgba(30, 134, 189, 1) 100%), url(${site.image})`,
-                        backgroundSize: 'cover', backgroundPosition: 'center'}}
-                    key={site.name}
-                    >
-                    
-                    <a id={`project-${i}`}
-                        className="project-link"
-                        href={site.link}
+                <a id={`project-${i}`}
+                    href={site.link}
+                >
+                    <div 
+                        className="project-container"
+                        style={{ backgroundImage: 
+                        `linear-gradient(to bottom, rgba(39, 218, 176, 0.9) 0%,rgba(30, 134, 189, 1) 100%), url(${site.image})`,
+                            backgroundSize: 'cover', backgroundPosition: 'center'}}
                         key={site.name}
-                        >{site.name}
-                    </a>
-                    {/* <img 
-                        src={site.image}
-                    /> */}
-                    <p>{site.description}</p>
-                </div>
+                    >
+                        <h2 className="project-header" key={site.name}>
+                            {site.name}
+                        </h2>
+                        {/* <img 
+                            src={site.image}
+                        /> */}
+                        <p className="project-description">{site.description}</p>
+                    </div>
+                </a>
             ))}
         </section>
     )

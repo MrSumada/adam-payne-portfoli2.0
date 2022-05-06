@@ -168,6 +168,11 @@ button {
   text-align: center;
 }
 
+.project-container:hover {
+  border: 2px solid var(--bg-1-color);
+  margin: 18px;
+}
+
 .project-container a {
   font-size: 2em;
 }
@@ -178,6 +183,10 @@ button {
   text-shadow: 1px 1px 1px var(--bg-2-color);
   padding: 20px;
   overflow: scroll;
+}
+
+.project-description {
+  flex-basis: 40%;
 }
 
 .resume {
