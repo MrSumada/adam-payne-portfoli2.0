@@ -4,6 +4,7 @@ import imageConch from "../../assets/images/food-conch-logo.jpg";
 import imageBlog from "../../assets/images/build-a-blog-logo.jpg";
 import imageWorkday from "../../assets/images/workday-hours.jpg";
 import imageQuiz from "../../assets/images/code-quiz-logo.jpg";
+import { Link } from 'react-router-dom';
 
 function Projects() {
 
@@ -39,16 +40,19 @@ function Projects() {
             image:  imageQuiz
         }
     ])
-    // const [currentProject, setCurrentProject] = useState();
 
     return (
         <section className="projects">
             {projectsList.map((site, i) => (
+                
                 <div 
                     className="project-container"
-                    style={{ backgroundImage: `url(${site.image})` }}
+                    style={{ backgroundImage: 
+                    `linear-gradient(to bottom, rgba(39, 218, 176, 0.9) 0%,rgba(30, 134, 189, 1) 100%), url(${site.image})`,
+                        backgroundSize: 'cover', backgroundPosition: 'center'}}
                     key={site.name}
                     >
+                    
                     <a id={`project-${i}`}
                         className="project-link"
                         href={site.link}
@@ -58,10 +62,9 @@ function Projects() {
                     {/* <img 
                         src={site.image}
                     /> */}
-                    {site.description}
+                    <p>{site.description}</p>
                 </div>
             ))}
-            
         </section>
     )
 }
