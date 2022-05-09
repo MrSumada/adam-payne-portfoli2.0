@@ -44,6 +44,7 @@ function Contact() {
         setMessage('');
         setEmail('');
         alert(`Thank you ${name}!`);
+        setErrorMessage('');
     };
 
     return (
@@ -77,12 +78,14 @@ function Contact() {
             <button type="button" onClick={handleFormSubmit}>
             Submit
             </button>
-        </form>
-        {errorMessage && (
-            <div>
+
+            {errorMessage && (
+            <div className='error-message'>
             <p className="error-text">{errorMessage}</p>
             </div>
         )}
+        </form>
+        
         </div>
     );
 }

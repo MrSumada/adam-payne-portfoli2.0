@@ -155,22 +155,22 @@ button {
   grid-template-columns: 6fr 6fr;
   align-items: center;
   margin: 10px;
+  justify-content: center;
 }
 
 .project-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   width: 40vw;
   height: 30vh;
   border-radius: 20px;
-  margin: 20px;
+  margin: 20px auto;
   text-align: center;
 }
 
 .project-container:hover {
   border: 2px solid var(--bg-1-color);
-  margin: 18px;
+  margin: 18px auto;
 }
 
 .project-container a {
@@ -218,6 +218,19 @@ button {
 
 .resume-column > ul > li {
   padding: 2px 0;
+}
+
+.resume-column > h4 {
+  padding: 0 20px;
+}
+
+.resume-column > h4 > a {
+  margin: 0;
+}
+
+.error-message {
+  color: var(--font-color-1);
+  text-align: center;
 }
 
 footer {

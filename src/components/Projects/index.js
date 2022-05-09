@@ -50,7 +50,7 @@ function Projects() {
                     <div 
                         className="project-container"
                         style={{ backgroundImage: 
-                        `linear-gradient(to bottom, rgba(39, 218, 176, 0.9) 0%,rgba(30, 134, 189, 1) 100%), url(${site.image})`,
+                        `linear-gradient(to bottom, rgba(39, 218, 176, 0.95) 0%,rgba(30, 134, 189, 1) 100%), url(${site.image})`,
                             backgroundSize: 'cover', backgroundPosition: 'center'}}
                         key={site.name}
                     >

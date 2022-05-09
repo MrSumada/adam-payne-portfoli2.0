@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeDoc from "../../assets/files/Adam-Payne-Resume-2015.pdf"
 
 function Resume() {
     return (
@@ -30,6 +31,7 @@ function Resume() {
             </div>
             <div className="resume-column right">
             <h3>Design Skills</h3>
+            
                 <ul>
                     <li>Final Cut Pro</li>
                     <li>Apple Motion</li>
@@ -38,7 +40,10 @@ function Resume() {
                     <li>AfterEffects</li>
                     <li>Illustrator</li>
                 </ul>
+            
+                <h4><a href={ResumeDoc} download={ResumeDoc}>Download Resume</a></h4>
             </div>
+            
         </section>
     )
 }
