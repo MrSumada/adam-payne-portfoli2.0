@@ -6,7 +6,7 @@
 
 ## Link
 
-https://mrsumada.github.io/adam-payne-portfoli2.0/
+http://mrsumada.github.io/adam-payne-portfoli2.0/
 
 ## Description
 
