@@ -23,5 +23,3 @@ This application is licensed under ISC. Read more: (https://opensource.org/licen
 For any further questions, you can find my github profile here: https://github.com/MrSumada
 
 Or you can contact me at adampaynewebdev@gmail.com.
-
-![footer-image](./src/assets/images/logos.jpg)
