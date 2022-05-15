@@ -2,7 +2,7 @@
 
 # Adam Payne Potfoli2.0
 
-![header-image](./src/assets/images/gradient.jpg)
+![header-image](./src/assets/images/portfolio-style.png)
 
 ## Link
 
