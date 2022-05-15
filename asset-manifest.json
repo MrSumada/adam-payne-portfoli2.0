@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/adam-payne-portfoli2.0/static/css/main.8b2fc39d.css",
-    "main.js": "/adam-payne-portfoli2.0/static/js/main.4ebe3952.js",
+    "main.css": "/adam-payne-portfoli2.0/static/css/main.b0aac540.css",
+    "main.js": "/adam-payne-portfoli2.0/static/js/main.2ad23361.js",
     "static/js/787.1d8efb5d.chunk.js": "/adam-payne-portfoli2.0/static/js/787.1d8efb5d.chunk.js",
     "static/media/Adam-Payne-Resume-2015.pdf": "/adam-payne-portfoli2.0/static/media/Adam-Payne-Resume-2015.2eaadd9d4a51ba0e3164.pdf",
     "static/media/class-pic-small.jpg": "/adam-payne-portfoli2.0/static/media/class-pic-small.5ef22c825d6e5d977a18.jpg",
@@ -12,12 +12,12 @@
     "static/media/code-quiz-logo.jpg": "/adam-payne-portfoli2.0/static/media/code-quiz-logo.ea2d212c110a1f047faf.jpg",
     "static/media/glyph-logo_May2016.png": "/adam-payne-portfoli2.0/static/media/glyph-logo_May2016.aaa207e2a8befba56120.png",
     "index.html": "/adam-payne-portfoli2.0/index.html",
-    "main.8b2fc39d.css.map": "/adam-payne-portfoli2.0/static/css/main.8b2fc39d.css.map",
-    "main.4ebe3952.js.map": "/adam-payne-portfoli2.0/static/js/main.4ebe3952.js.map",
+    "main.b0aac540.css.map": "/adam-payne-portfoli2.0/static/css/main.b0aac540.css.map",
+    "main.2ad23361.js.map": "/adam-payne-portfoli2.0/static/js/main.2ad23361.js.map",
     "787.1d8efb5d.chunk.js.map": "/adam-payne-portfoli2.0/static/js/787.1d8efb5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b2fc39d.css",
-    "static/js/main.4ebe3952.js"
+    "static/css/main.b0aac540.css",
+    "static/js/main.2ad23361.js"
   ]
 }
