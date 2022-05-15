@@ -173,10 +173,6 @@ button {
   margin: 18px auto;
 }
 
-.project-container a {
-  font-size: 2em;
-}
-
 .project-container p {
   color: var(--font-color-1);
   font-size: 1em;
@@ -187,6 +183,18 @@ button {
 
 .project-description {
   flex-basis: 40%;
+}
+
+.github-link {
+  font-size: 1.2em;
+  padding: 0 20px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.github-link:hover {
+  border: 2px solid var(--bg-1-color);
+  margin: 8px auto;
 }
 
 .resume {

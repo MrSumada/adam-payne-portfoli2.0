@@ -13,30 +13,35 @@ function Projects() {
             name: 'ideafora',
             description: 'Ideafora.com is a platform designed to bridge the communication gap between creative thinkers and skilled developers',
             link: 'https://ihaveanideafora.herokuapp.com/',
+            github: 'https://github.com/becketbowes/ihaveanideafora',
             image: imageIdeafora
         },
         {
             name: 'Food Conch',
             description: 'Whether you are indecisive on what recipe to cook at home or what restuarant to eat at, the Food Conch will help!',
             link: 'https://alessandrob96.github.io/The-Food-Conch/',
+            github: 'https://github.com/AlessandroB96/The-Food-Conch',
             image: imageConch
         },
         {
             name: 'Build a Blog',
             description: 'The place for anyone to create, edit, and comment on blog posts!',
             link: 'https://build-a-blog.herokuapp.com/',
+            github: 'https://github.com/MrSumada/build-a-blog',
             image:  imageBlog
         },
         {
             name: 'Draggable Workday',
             description: 'A simple calendar app to schedule your work day',
             link: 'https://mrsumada.github.io/draggable-hourly-workday-scheduler/',
+            github: 'https://github.com/MrSumada/draggable-hourly-workday-scheduler',
             image:  imageWorkday
         },
         {
             name: 'Code Quiz',
             description: 'The timed javascript quiz made with javascript.',
             link: 'https://mrsumada.github.io/javascript-coded-javascript-code-quiz/',
+            github: 'https://github.com/MrSumada/javascript-coded-javascript-code-quiz',
             image:  imageQuiz
         }
     ])
@@ -61,6 +66,7 @@ function Projects() {
                             src={site.image}
                         /> */}
                         <p className="project-description">{site.description}</p>
+                        <a className="github-link" href={site.github}>Github</a>
                     </div>
                 </a>
             ))}
