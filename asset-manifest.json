@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/adam-payne-portfoli2.0/static/css/main.b0aac540.css",
-    "main.js": "/adam-payne-portfoli2.0/static/js/main.2ad23361.js",
+    "main.js": "/adam-payne-portfoli2.0/static/js/main.9ed243c1.js",
     "static/js/787.1d8efb5d.chunk.js": "/adam-payne-portfoli2.0/static/js/787.1d8efb5d.chunk.js",
+    "static/media/sticker-book.jpg": "/adam-payne-portfoli2.0/static/media/sticker-book.4f71fa131251e46136f0.jpg",
     "static/media/Adam-Payne-Resume-2015.pdf": "/adam-payne-portfoli2.0/static/media/Adam-Payne-Resume-2015.2eaadd9d4a51ba0e3164.pdf",
     "static/media/class-pic-small.jpg": "/adam-payne-portfoli2.0/static/media/class-pic-small.5ef22c825d6e5d977a18.jpg",
     "static/media/workday-hours.jpg": "/adam-payne-portfoli2.0/static/media/workday-hours.cf1e7159ec86482c1e4d.jpg",
@@ -13,11 +14,11 @@
     "static/media/glyph-logo_May2016.png": "/adam-payne-portfoli2.0/static/media/glyph-logo_May2016.aaa207e2a8befba56120.png",
     "index.html": "/adam-payne-portfoli2.0/index.html",
     "main.b0aac540.css.map": "/adam-payne-portfoli2.0/static/css/main.b0aac540.css.map",
-    "main.2ad23361.js.map": "/adam-payne-portfoli2.0/static/js/main.2ad23361.js.map",
+    "main.9ed243c1.js.map": "/adam-payne-portfoli2.0/static/js/main.9ed243c1.js.map",
     "787.1d8efb5d.chunk.js.map": "/adam-payne-portfoli2.0/static/js/787.1d8efb5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0aac540.css",
-    "static/js/main.2ad23361.js"
+    "static/js/main.9ed243c1.js"
   ]
 }
